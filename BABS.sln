@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31613.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BABS", "BABS\BABS.csproj", "{D6B1567B-5F89-4A6A-981E-74C0E5BD6539}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D6B1567B-5F89-4A6A-981E-74C0E5BD6539}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6B1567B-5F89-4A6A-981E-74C0E5BD6539}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6B1567B-5F89-4A6A-981E-74C0E5BD6539}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6B1567B-5F89-4A6A-981E-74C0E5BD6539}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3E937612-9402-4EF4-B184-9D7E26AFF1DE}
+	EndGlobalSection
+EndGlobal
