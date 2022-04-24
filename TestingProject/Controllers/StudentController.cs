@@ -18,8 +18,8 @@ namespace TestingProject.Controllers
     {
         IFirebaseConfig config = new FirebaseConfig
         {
-            AuthSecret = "api",
-            BasePath = "bucket"
+            AuthSecret = "yJUnCCy336Gn9KNW7DEDcAyTZ1Z8t0gqiy623oNi",
+            BasePath = "https://asp-mvc-with-android.firebaseio.com/"
         };
         IFirebaseClient client;
         // GET: Student

@@ -15,10 +15,10 @@ namespace TestingProject.Controllers
 {
     public class EmployeesController : Controller
     {
-        private static string ApiKey = "api";
-        private static string Bucket = "bucket"; //chamge
-
-
+        private static string ApiKey = "AIzaSyC_bHn5KFYDusJZge38qGEgesbPLPJWj8YD-k";
+        private static string Bucket = "abc.appspot.com";
+      
+       
         private DBContext db = new DBContext();
 
         // GET: Employees
