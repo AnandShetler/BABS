@@ -14,8 +14,8 @@ namespace TestingProject.Controllers
 {
     public class AccountController : Controller
     {
-        private static string ApiKey = "AIzaSyBHD0FfT6VBL4kje_dqEX0f2Y3OBzMUybk";
-        private static string Bucket = "asp-mvc-with-android.appspot.com";
+        private static string ApiKey = "api";
+        private static string Bucket = "bucket";
         // GET: Account
         public ActionResult SignUp()
         {
