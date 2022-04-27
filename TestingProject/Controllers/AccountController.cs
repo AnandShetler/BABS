@@ -50,8 +50,9 @@ namespace TestingProject.Controllers
                 // Verification.
                 if (this.Request.IsAuthenticated)
                 {
-
-                  return this.RedirectToLocal(returnUrl);
+                    if (String.IsNullOrEmpty(returnUrl))
+                        returnUrl = "Home";
+                    return this.RedirectToLocal(returnUrl);
                 }
             }
             catch (Exception ex)
@@ -80,7 +81,8 @@ namespace TestingProject.Controllers
                     var user = ab.User;
                     if (token != "")
                     {
-
+                        if (String.IsNullOrEmpty(returnUrl))
+                            returnUrl = "Home";
                         this.SignInUser(user.Email, token, false);
                         return this.RedirectToLocal(returnUrl);
 
