@@ -23,5 +23,8 @@ namespace TestingProject.App_Start
 
         public virtual DbSet<Designation> Designations { get; set; }
         public virtual DbSet<Employee> Employees { get; set; }
+        public virtual DbSet<Client> Clients { get; set; }
+        public virtual DbSet<Businessperson> Businesspeople { get; set; }
+        public virtual DbSet<Appointment> Appointments { get; set; }
     }
 }
