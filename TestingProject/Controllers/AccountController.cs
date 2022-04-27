@@ -51,7 +51,7 @@ namespace TestingProject.Controllers
                 if (this.Request.IsAuthenticated)
                 {
 
-                  //  return this.RedirectToLocal(returnUrl);
+                  return this.RedirectToLocal(returnUrl);
                 }
             }
             catch (Exception ex)
