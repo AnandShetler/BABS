@@ -257,6 +257,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Scripts\AppointmentSchedule.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="manifest.json" />
@@ -270,7 +271,23 @@
     <Content Include="Scripts\jquery.validate.min.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
+    <None Include="Scripts\MindFusion.Scheduling-vsdoc.js" />
+    <Content Include="Scripts\MindFusion.Scheduling.js" />
     <Content Include="Scripts\modernizr-2.8.3.js" />
+    <Content Include="Scripts\themes\blue.css" />
+    <Content Include="Scripts\themes\business.css" />
+    <Content Include="Scripts\themes\custom.css" />
+    <Content Include="Scripts\themes\earth.css" />
+    <Content Include="Scripts\themes\first-theme.css" />
+    <Content Include="Scripts\themes\gray.css" />
+    <Content Include="Scripts\themes\green.css" />
+    <Content Include="Scripts\themes\icons\black\small.png" />
+    <Content Include="Scripts\themes\icons\color\small.png" />
+    <Content Include="Scripts\themes\icons\white\small.png" />
+    <Content Include="Scripts\themes\light.css" />
+    <Content Include="Scripts\themes\pastel.css" />
+    <Content Include="Scripts\themes\peach.css" />
+    <Content Include="Scripts\themes\standard.css" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

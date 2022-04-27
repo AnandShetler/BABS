@@ -15,10 +15,10 @@ namespace TestingProject.Controllers
 {
     public class EmployeesController : Controller
     {
-        private static string ApiKey = "api";
-        private static string Bucket = "bucket";
-      
-       
+        private static string ApiKey = "AIzaSyCbC0op3r9cSjMqAlpPHZAHR-3QpcIxO3s";
+        private static string Bucket = "https://babs-57674-default-rtdb.firebaseio.com/";
+
+
         private DBContext db = new DBContext();
 
         // GET: Employees

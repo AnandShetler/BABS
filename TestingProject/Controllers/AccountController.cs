@@ -14,8 +14,8 @@ namespace TestingProject.Controllers
 {
     public class AccountController : Controller
     {
-        private static string ApiKey = "api";
-        private static string Bucket = "bucket";
+        private static string ApiKey = "AIzaSyCbC0op3r9cSjMqAlpPHZAHR-3QpcIxO3s";
+        private static string Bucket = "https://babs-57674-default-rtdb.firebaseio.com/";
         // GET: Account
         public ActionResult SignUp()
         {
