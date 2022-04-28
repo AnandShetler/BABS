@@ -232,6 +232,11 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\StartUp.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+<<<<<<< HEAD
+=======
+    <Compile Include="Controllers\DesignationsController.cs" />
+    <Compile Include="Controllers\EmployeesController.cs" />
+>>>>>>> c3b476f534fa886e047da2a1a051c689fea0d5e2
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
