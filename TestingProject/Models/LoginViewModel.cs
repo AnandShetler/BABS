@@ -6,6 +6,7 @@ using System.Web;
 
 namespace TestingProject.Models
 {
+    // Model of data submitted by user on login
     public class LoginViewModel
     {
         [Key]

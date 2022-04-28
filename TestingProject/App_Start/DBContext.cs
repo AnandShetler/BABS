@@ -11,6 +11,7 @@ namespace TestingProject.App_Start
 {
     public class DBContext : DbContext
     {
+        // Access the different collections with the firebase firestore database
         public DBContext()
            : base("DBEntities")
         {

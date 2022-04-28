@@ -5,6 +5,7 @@ using System.Linq;
 using System.Web;
 namespace TestingProject.Models
 {
+    // Model of data submitted by user on sign up
     public class SignUpModel
     {
         [Key]

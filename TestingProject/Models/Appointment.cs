@@ -7,6 +7,7 @@ using System.Web;
 
 namespace TestingProject.Models
 {
+    // Model which matches the Appointments collection in Firebase
     public class Appointment
     {
         [Key]

@@ -6,6 +6,7 @@ using System.Web;
 
 namespace TestingProject.Models
 {
+    // Model which matches the Businesspeople collection in Firebase
     public class Businessperson
     {
         [Key]
