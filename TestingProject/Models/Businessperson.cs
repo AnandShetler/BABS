@@ -13,6 +13,6 @@ namespace TestingProject.Models
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public string Email { get; set; }
-        public Dictionary<string, Array> Availability { get; set }
+        public Dictionary<string, Array> Availability { get; set; }
     }
 }

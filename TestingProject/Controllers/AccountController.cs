@@ -31,7 +31,7 @@ namespace TestingProject.Controllers
                 var auth = new FirebaseAuthProvider(new FirebaseConfig(ApiKey));
 
                 var a = await auth.CreateUserWithEmailAndPasswordAsync(model.Email, model.Password, model.Name, true);
-                ModelState.AddModelError(string.Empty, "Please Verify your email then login Plz.");
+                ModelState.AddModelError(string.Empty, "Your account has been created! Please go to the login page to log in.");
             }
             catch (Exception ex)
             {
@@ -51,7 +51,7 @@ namespace TestingProject.Controllers
                 if (this.Request.IsAuthenticated)
                 {
                     if (String.IsNullOrEmpty(returnUrl))
-                        returnUrl = "Home";
+                        returnUrl = "/Home";
                     return this.RedirectToLocal(returnUrl);
                 }
             }
@@ -82,7 +82,7 @@ namespace TestingProject.Controllers
                     if (token != "")
                     {
                         if (String.IsNullOrEmpty(returnUrl))
-                            returnUrl = "Home";
+                            returnUrl = "/Home";
                         this.SignInUser(user.Email, token, false);
                         return this.RedirectToLocal(returnUrl);
 
@@ -101,7 +101,7 @@ namespace TestingProject.Controllers
             }
 
             // If we got this far, something failed, redisplay form
-            return this.View(model);
+            return this.View();
         }
 
         private void SignInUser(string email, string token, bool isPersistent)
