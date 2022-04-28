@@ -9,16 +9,19 @@ namespace TestingProject.Controllers
     [Authorize]
     public class HomeController : Controller
     {
+        // Display Home page
         public ActionResult Index()
         {
             return View();
         }
 
+        // Display About page
         public ActionResult About()
         {
             return View();
         }
 
+        // Display Contact page
         public ActionResult Contact()
         {
             return View();

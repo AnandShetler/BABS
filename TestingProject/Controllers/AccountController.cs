@@ -22,6 +22,7 @@ namespace TestingProject.Controllers
             return View();
         }
 
+        // Verify and create a new user given user data
         [HttpPost]
         [AllowAnonymous]
         public async Task<ActionResult> SignUp(SignUpModel model)
@@ -41,6 +42,7 @@ namespace TestingProject.Controllers
             return View();
         }
 
+        // Display login page if user isn't already logged in and redirect to previous page
         [AllowAnonymous]
         [HttpGet]
         public ActionResult Login(string returnUrl)
@@ -65,6 +67,7 @@ namespace TestingProject.Controllers
             return this.View();
         }
 
+        // Handle login action for an existing user and redirect to given url
         [HttpPost]
         [AllowAnonymous]
         public async Task<ActionResult> Login(LoginViewModel model, string returnUrl)
@@ -104,6 +107,7 @@ namespace TestingProject.Controllers
             return this.View();
         }
 
+        // Handle Claims Identity for user session
         private void SignInUser(string email, string token, bool isPersistent)
         {
             // Initialization.
@@ -145,6 +149,7 @@ namespace TestingProject.Controllers
             }
         }
 
+        // Redirect to a given page if it exists
         private ActionResult RedirectToLocal(string returnUrl)
         {
             try
@@ -166,6 +171,7 @@ namespace TestingProject.Controllers
             return this.RedirectToAction("LogOff", "Account");
         }
 
+        // Handle user logging out
         [AllowAnonymous]
         [HttpGet]
         public ActionResult LogOff()
